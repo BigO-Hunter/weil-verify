@@ -2033,3 +2033,1376 @@ warning: StacksFrontier/RingTheory/RingHom/FinitePresentation.lean:307:2: The `s
 However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
 
 Note: This linter can be disabled with `set_option linter.style.show false`
+✔ [5095/5107] Built StacksFrontier.RingTheory.CompleteIntersection.RelativeConormal (17s)
+⚠ [5096/5107] Built StacksFrontier.RingTheory.SpreadingOut.QuotientSystem (15s)
+warning: StacksFrontier/RingTheory/SpreadingOut/QuotientSystem.lean:101:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/QuotientSystem.lean:131:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/QuotientSystem.lean:148:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/QuotientSystem.lean:278:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/QuotientSystem.lean:342:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/QuotientSystem.lean:441:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/QuotientSystem.lean:576:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/QuotientSystem.lean:687:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/QuotientSystem.lean:696:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/QuotientSystem.lean:792:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/QuotientSystem.lean:794:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/QuotientSystem.lean:826:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/QuotientSystem.lean:849:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+✔ [5097/5107] Built StacksFrontier.RingTheory.Syntomic.RelativeGlobalCompleteIntersection (7.2s)
+⚠ [5098/5109] Built StacksFrontier.RingTheory.SpreadingOut.FlatIdeal (8.5s)
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatIdeal.lean:107:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatIdeal.lean:112:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+⚠ [5099/5110] Built StacksFrontier.RingTheory.Flat.LocalCriterionEssFP (4.0s)
+warning: StacksFrontier/RingTheory/Flat/LocalCriterionEssFP.lean:96:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Flat/LocalCriterionEssFP.lean:101:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Flat/LocalCriterionEssFP.lean:126:11: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Flat/LocalCriterionEssFP.lean:170:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Flat/LocalCriterionEssFP.lean:177:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+✔ [5100/5110] Built StacksFrontier.RingTheory.Kaehler.JacobiZariski (3.5s)
+✔ [5101/5110] Built StacksFrontier.RingTheory.Syntomic.SyntomicAt (9.3s)
+✔ [5102/5112] Built StacksFrontier.RingTheory.Smooth.CotangentAtMaximalIdeal (2.8s)
+✔ [5103/5112] Built StacksFrontier.RingTheory.Flat.InjectiveModMaximalIdeal (3.8s)
+⚠ [5104/5112] Built StacksFrontier.RingTheory.Kaehler.BaseChange (2.4s)
+warning: StacksFrontier/RingTheory/Kaehler/BaseChange.lean:197:2: 'KaehlerDifferential.exists_retraction_mapBaseChange' already carries this reference; skipping duplicate.
+✔ [5105/5112] Built StacksFrontier.FieldTheory.Separable.Defs (2.2s)
+✔ [5106/5114] Built StacksFrontier.FieldTheory.Separable.PerfectField (1.8s)
+✔ [5107/5115] Built StacksFrontier.RingTheory.SpreadingOut.ResidueFibre (3.3s)
+✔ [5108/5115] Built StacksFrontier.RingTheory.CohenMacaulay.Syzygy (2.5s)
+✔ [5110/5119] Built StacksFrontier.RingTheory.CohenMacaulay.FreeComplex (3.1s)
+✔ [5113/5119] Built StacksFrontier.Algebra.Homology.ProjectiveDimension.Filtration (4.2s)
+✔ [5114/5120] Built StacksFrontier.RingTheory.Flat.LocalCriterionNonNoetherian (11s)
+✔ [5115/5121] Built StacksFrontier.RingTheory.GlobalDimension.Cyclic (4.6s)
+✔ [5116/5122] Built StacksCore.Algebra.Algebra.Basic (1.1s)
+⚠ [5117/5123] Built StacksFrontier.RingTheory.Flat.RegularSequenceOverBase (4.0s)
+warning: StacksFrontier/RingTheory/Flat/RegularSequenceOverBase.lean:28:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+✔ [5118/5124] Built StacksCore.Algebra.Algebra.Defs (1.0s)
+✔ [5119/5124] Built StacksCore.Algebra.Algebra.Equiv (1.1s)
+✔ [5120/5125] Built StacksCore.Algebra.Algebra.Field.Defs (1.0s)
+✔ [5121/5125] Built StacksCore.Algebra.Algebra.Opposite (1.4s)
+✔ [5122/5129] Built StacksCore.Algebra.Algebra.Subalgebra.Basic (1.7s)
+✔ [5124/5131] Built StacksCore.LinearAlgebra.Quotient.Basic (1.0s)
+✔ [5125/5132] Built StacksCore.RingTheory.Flat.TorsionFree (2.0s)
+✔ [5127/5132] Built StacksCore.Algebra.Algebra.Subalgebra.Disjoint (947ms)
+⚠ [5128/5132] Built StacksFrontier.RingTheory.Koszul.FlatQuotient (11s)
+warning: StacksFrontier/RingTheory/Koszul/FlatQuotient.lean:129:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Koszul/FlatQuotient.lean:204:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Koszul/FlatQuotient.lean:230:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Koszul/FlatQuotient.lean:283:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Koszul/FlatQuotient.lean:291:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Koszul/FlatQuotient.lean:310:10: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Koszul/FlatQuotient.lean:519:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Koszul/FlatQuotient.lean:606:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Koszul/FlatQuotient.lean:621:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Koszul/FlatQuotient.lean:677:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Koszul/FlatQuotient.lean:821:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Koszul/FlatQuotient.lean:848:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Koszul/FlatQuotient.lean:849:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Koszul/FlatQuotient.lean:852:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Koszul/FlatQuotient.lean:853:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+✔ [5129/5133] Built StacksCore.Algebra.Algebra.Subalgebra.Centralizer (2.5s)
+✔ [5130/5139] Built StacksCore.Algebra.Algebra.Subalgebra.Conj (1.8s)
+✔ [5137/5142] Built StacksCore.Algebra.Algebra.Subalgebra.Lattice (1.3s)
+✔ [5139/5142] Built StacksCore.RingTheory.SimpleRing.Basic (2.2s)
+✔ [5140/5144] Built StacksCore.Algebra.Central.TensorProduct (4.5s)
+✔ [5141/5152] Built StacksFrontier.RingTheory.CompleteIntersection.RingMap.Criteria (10s)
+✔ [5147/5155] Built StacksCore.LinearAlgebra.Matrix.ToLin (1.6s)
+✔ [5150/5155] Built StacksCore.LinearAlgebra.Dimension.Finite (1.1s)
+✔ [5151/5156] Built StacksCore.RingTheory.SimpleRing.End (1.2s)
+✔ [5152/5156] Built StacksCore.Algebra.Category.ModuleCat.Basic (1.3s)
+✔ [5153/5164] Built StacksCore.RingTheory.TwoSidedIdeal.Operations (1.6s)
+✔ [5155/5165] Built StacksCore.RingTheory.SimpleRing.DivisionRing (2.0s)
+✔ [5157/5166] Built StacksCore.Algebra.Algebra.Tower (1.7s)
+✔ [5158/5166] Built StacksCore.RingTheory.TwoSidedIdeal.SpanAsSum (1.4s)
+✔ [5161/5175] Built StacksCore.RingTheory.Morita.SimpleRing (2.7s)
+✔ [5166/5176] Built StacksCore.RingTheory.MatrixAlgebra (1.6s)
+✔ [5167/5176] Built StacksCore.RingTheory.SimpleRing.TensorProduct (3.3s)
+✔ [5168/5179] Built StacksCore.Algebra.Category.Grp.AB (3.1s)
+✔ [5169/5179] Built StacksCore.Algebra.Category.ModuleCat.ChangeOfRings (2.2s)
+✔ [5170/5179] Built StacksCore.RingTheory.SkolemNoether (3.2s)
+✔ [5172/5179] Built StacksCore.Algebra.Category.ModuleCat.Limits (2.4s)
+✔ [5173/5179] Built StacksCore.Algebra.BrauerGroup.Basic (6.4s)
+✔ [5174/5182] Built StacksCore.Algebra.Category.ModuleCat.Dualizable (1.8s)
+✔ [5175/5182] Built StacksCore.Algebra.BrauerGroup.BaseChange (2.2s)
+✔ [5176/5184] Built StacksCore.Algebra.BrauerGroup.AlgClosed (1.4s)
+✔ [5178/5185] Built StacksCore.RingTheory.SimpleRing.Centralizer (6.3s)
+✔ [5180/5185] Built StacksCore.Algebra.Central.Matrix (935ms)
+✔ [5181/5186] Built StacksCore.Algebra.Central.Defs (2.3s)
+✔ [5182/5186] Built StacksCore.Algebra.Algebra.Subalgebra.DivisionRing (5.7s)
+✔ [5183/5187] Built StacksCore.Algebra.Category.ModuleCat.Localization (4.9s)
+✔ [5184/5187] Built StacksCore.Algebra.CharP.LinearMaps (1.9s)
+✔ [5185/5193] Built StacksCore.Algebra.CharP.Basic (2.6s)
+✔ [5187/5194] Built StacksCore.CategoryTheory.Preadditive.Yoneda.Basic (1.0s)
+✔ [5188/5194] Built StacksCore.Algebra.Field.Rat (1.8s)
+✔ [5189/5195] Built StacksCore.Algebra.Colimit.Module (4.3s)
+✔ [5190/5196] Built StacksCore.Algebra.Field.ZMod (2.1s)
+✔ [5191/5197] Built StacksCore.Algebra.Homology.ShortComplex.ExactFunctor (2.6s)
+✔ [5192/5197] Built StacksCore.Algebra.FreeAbelianGroup.Finsupp (1.4s)
+✔ [5193/5198] Built StacksCore.Algebra.Group.Submonoid.Defs (1.5s)
+✔ [5194/5200] Built StacksCore.Algebra.Homology.ShortComplex.ModuleCat (2.3s)
+✔ [5195/5200] Built StacksCore.Algebra.Group.Units.Hom (1.8s)
+✔ [5196/5200] Built StacksCore.Algebra.Homology.Bifunctor (2.9s)
+✔ [5197/5201] Built StacksCore.Algebra.Homology.BifunctorAssociator (3.0s)
+✔ [5198/5202] Built StacksCore.Algebra.Exact (2.8s)
+✔ [5199/5203] Built StacksCore.Algebra.Homology.BifunctorHomotopy (2.9s)
+✔ [5200/5203] Built StacksCore.Algebra.Homology.ComplexShapeSigns (2.7s)
+✔ [5201/5206] Built StacksCore.Algebra.Homology.DerivedCategory.Ext.Basic (3.2s)
+✔ [5203/5206] Built StacksCore.Algebra.Homology.DerivedCategory.Ext.ExactSequences (2.9s)
+✔ [5204/5209] Built StacksCore.Algebra.Homology.DerivedCategory.Ext.Map (3.0s)
+✔ [5205/5210] Built StacksCore.Algebra.Homology.ExactCouple (6.0s)
+✔ [5206/5211] Built StacksCore.Algebra.Homology.ExactSequence (2.8s)
+✔ [5207/5212] Built StacksCore.Algebra.Homology.SpectralSequence.OfNat (3.9s)
+✔ [5208/5213] Built StacksCore.Algebra.Homology.HomologicalComplex (2.7s)
+⚠ [5209/5213] Built StacksCore.Algebra.Homology.HomologicalBicomplex (3.1s)
+warning: StacksCore/Algebra/Homology/HomologicalBicomplex.lean:56:31: 'HomologicalComplex₂.DoubleComplex' already carries this reference; skipping duplicate.
+✔ [5210/5213] Built StacksCore.Algebra.Homology.HomologicalComplexAbelian (2.3s)
+✔ [5211/5216] Built StacksCore.Algebra.Homology.HomologicalTricomplex (3.5s)
+✔ [5212/5217] Built StacksCore.Algebra.Homology.ExactCouple.SpectralSequence (6.3s)
+✔ [5213/5218] Built StacksCore.Algebra.Homology.HomologicalTricomplex.Total12 (3.3s)
+✔ [5214/5218] Built StacksCore.Algebra.Homology.HomologicalTricomplex.Total23 (3.6s)
+✔ [5215/5220] Built StacksCore.Algebra.Homology.HomologySequenceLemmas (2.3s)
+✔ [5216/5221] Built StacksCore.Algebra.Homology.Homotopy (2.3s)
+✔ [5217/5222] Built StacksCore.Algebra.Homology.HomotopyCategory.Shift (6.5s)
+✔ [5218/5223] Built StacksCore.Algebra.Homology.HomologicalTricomplex.Associator (8.4s)
+✔ [5219/5223] Built StacksCore.Algebra.Homology.HomotopyCategory.HomComplexShift (2.4s)
+✔ [5220/5225] Built StacksCore.Algebra.Homology.HomotopyCategory.ChainDegreewiseSplit (3.2s)
+✔ [5221/5225] Built StacksCore.Algebra.Homology.HomotopyCategory.HomotopyShift (2.3s)
+✔ [5222/5226] Built StacksCore.Algebra.Homology.QuasiIso (3.4s)
+✔ [5223/5227] Built StacksCore.Algebra.Homology.HomotopyCategory.ShiftSequence (4.8s)
+✔ [5224/5228] Built StacksCore.Algebra.Homology.ShortComplex.Exact (2.3s)
+✔ [5225/5229] Built StacksCore.Algebra.Homology.ShortComplex.Preadditive (1.6s)
+✔ [5226/5230] Built StacksCore.Algebra.Homology.ShortComplex.ShortExact (2.6s)
+✔ [5227/5231] Built StacksCore.Algebra.Homology.ShortComplex.Products (5.4s)
+✔ [5228/5232] Built StacksCore.Algebra.Homology.ShortComplex.SnakeLemma (2.9s)
+✔ [5229/5233] Built StacksCore.Algebra.Homology.TotalComplexShift (3.4s)
+✔ [5230/5234] Built StacksCore.Algebra.Module.FinitePresentation (3.1s)
+✔ [5231/5235] Built StacksCore.Algebra.Module.LinearMap.Defs (1.6s)
+✔ [5232/5236] Built StacksCore.Algebra.Module.LinearMap.End (1.8s)
+✔ [5233/5237] Built StacksCore.Algebra.Module.LocalizedModule.Basic (2.3s)
+✔ [5234/5238] Built StacksCore.Algebra.Module.LocalizedModule.Colimit (3.0s)
+✔ [5235/5239] Built StacksCore.Algebra.Module.LocalizedModule.Exact (3.6s)
+✔ [5236/5240] Built StacksCore.Algebra.Module.LocalizedModule.LocalizationLocalization (2.7s)
+✔ [5237/5241] Built StacksCore.Algebra.Module.LocalizedModule.Submodule (3.3s)
+✔ [5238/5242] Built StacksCore.Algebra.Module.Projective (3.4s)
+✔ [5239/5243] Built StacksCore.Algebra.Module.SpanRank (3.0s)
+✔ [5240/5244] Built StacksCore.Algebra.Opposites (2.0s)
+✔ [5241/5244] Built StacksCore.Algebra.Polynomial.Derivative (1.7s)
+✔ [5242/5251] Built StacksCore.Algebra.Polynomial.Expand (1.8s)
+✔ [5247/5253] Built StacksCore.Algebra.Polynomial.Roots (2.3s)
+✔ [5248/5253] Built StacksCore.GroupTheory.GroupAction.Defs (1.6s)
+✔ [5250/5254] Built StacksCore.Algebra.QuotSq (2.3s)
+✔ [5251/5260] Built StacksCore.LinearAlgebra.Dimension.Natfreerank (2.5s)
+✔ [5252/5260] Built StacksCore.RingTheory.Ideal.Quotient.Operations (2.6s)
+✔ [5253/5260] Built StacksCore.RingTheory.Discriminant (2.6s)
+✔ [5254/5263] Built StacksCore.RingTheory.PowerBasis (2.7s)
+✔ [5256/5263] Built StacksCore.RingTheory.AdjoinRoot (3.5s)
+✔ [5257/5264] Built StacksCore.Data.Matrix.Composition (2.5s)
+✔ [5258/5268] Built StacksCore.RingTheory.Finiteness.Basic (2.8s)
+✔ [5259/5268] Built StacksCore.RingTheory.Polynomial.FreeQuotient (3.0s)
+✔ [5260/5268] Built StacksCore.CategoryTheory.Endomorphism (2.7s)
+✔ [5261/5270] Built StacksCore.RingTheory.Morita.Matrix (3.9s)
+✔ [5262/5273] Built StacksCore.RingTheory.NormTrace (9.1s)
+✔ [5263/5273] Built StacksCore.RingTheory.Morita.End (5.7s)
+✔ [5264/5274] Built StacksCore.Algebra.QuadraticAlgebra.TraceNorm (2.4s)
+✔ [5265/5274] Built StacksCore.RingTheory.SimpleModule.WedderburnArtin (3.5s)
+✔ [5266/5275] Built StacksCore.LinearAlgebra.Matrix.Module (1.3s)
+✔ [5267/5275] Built StacksCore.Algebra.QuadraticAlgebra.Standard (3.0s)
+✔ [5268/5276] Built StacksCore.Analysis.Complex.Polynomial.Basic (4.9s)
+✔ [5269/5277] Built StacksCore.Algebra.Split.Basic (3.7s)
+⚠ [5270/5278] Built StacksCore.CategoryTheory.Abelian.CommSq (2.9s)
+warning: StacksCore/CategoryTheory/Abelian/CommSq.lean:27:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+✔ [5271/5278] Built StacksCore.Algebra.Split.Finrank (2.6s)
+✔ [5272/5278] Built StacksCore.CategoryTheory.Abelian.DeltaFunctor.Basic (3.2s)
+✔ [5273/5278] Built StacksCore.CategoryTheory.Abelian.DiagramLemmas.Four (1.0s)
+✔ [5274/5280] Built StacksCore.Algebra.Split.Embedding (2.0s)
+✔ [5275/5280] Built StacksCore.Algebra.Split.DivisionRing (3.3s)
+✔ [5276/5280] Built StacksCore.CategoryTheory.Abelian.DeltaFunctor.Effaceable (2.9s)
+✔ [5277/5280] Built StacksCore.CategoryTheory.Limits.Shapes.Kernels (1.8s)
+✔ [5278/5287] Built StacksCore.CategoryTheory.Abelian.Images (3.2s)
+✔ [5281/5288] Built StacksCore.Algebra.Split.CentralSimple (6.2s)
+✔ [5282/5288] Built StacksCore.CategoryTheory.Abelian.ShortExact (2.6s)
+✔ [5283/5288] Built StacksCore.CategoryTheory.Abelian.Opposite (2.8s)
+✔ [5284/5295] Built StacksCore.CategoryTheory.Abelian.Refinements (2.4s)
+✔ [5288/5296] Built StacksCore.CategoryTheory.Abelian.Subcategory (1.5s)
+✔ [5289/5297] Built StacksCore.CategoryTheory.Subobject.ArtinianObject (2.0s)
+✔ [5291/5297] Built StacksCore.CategoryTheory.Abelian.Transfer (1.2s)
+✔ [5292/5297] Built StacksCore.CategoryTheory.AdjointFunctors (1.8s)
+✔ [5293/5297] Built StacksCore.CategoryTheory.Subobject.NoetherianObject (2.0s)
+✔ [5294/5298] Built StacksCore.CategoryTheory.Abelian.SerreClass.Localization (1.7s)
+✔ [5295/5305] Built StacksCore.CategoryTheory.Balanced (1.6s)
+✔ [5298/5306] Built StacksCore.CategoryTheory.Abelian.JordanHolder (1.7s)
+✔ [5301/5307] Built StacksCore.CategoryTheory.Bicategory (2.0s)
+✔ [5303/5308] Built StacksCore.CategoryTheory.Category.Preorder (1.4s)
+✔ [5304/5308] Built StacksCore.CategoryTheory.CofilteredSystem (1.9s)
+✔ [5305/5309] Built StacksCore.CategoryTheory.ConnectedLimits (1.0s)
+✔ [5306/5309] Built StacksCore.CategoryTheory.DirectedLimits (1.9s)
+✔ [5307/5312] Built StacksCore.CategoryTheory.Basic (2.1s)
+✔ [5309/5316] Built StacksCore.CategoryTheory.EpiMono (2.5s)
+✔ [5313/5319] Built StacksCore.CategoryTheory.FiberedInGroupoids (6.5s)
+✔ [5315/5322] Built StacksCore.CategoryTheory.Filtration.Limits (5.3s)
+✔ [5316/5322] Built StacksCore.CategoryTheory.FiberedInGroupoidsEquiv (3.1s)
+⚠ [5317/5324] Built StacksCore.CategoryTheory.Limits.Shapes.Pullback.IsPullback.Basic (1.0s)
+warning: StacksCore/CategoryTheory/Limits/Shapes/Pullback/IsPullback/Basic.lean:10:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+✔ [5318/5326] Built StacksCore.CategoryTheory.Limits.Shapes.Pullback.IsPullback.BicartesianSq (1.6s)
+✔ [5319/5326] Built StacksCore.CategoryTheory.Preadditive.Biproducts (1.8s)
+✔ [5320/5326] Built StacksCore.CategoryTheory.Filtration.Single (1.7s)
+✔ [5321/5331] Built StacksCore.CategoryTheory.GradedObject.Abelian (2.7s)
+✔ [5322/5334] Built StacksCore.CategoryTheory.FinalFunctors (2.7s)
+✔ [5323/5336] Built StacksCore.CategoryTheory.Filtration.Strict (4.8s)
+✔ [5324/5336] Built StacksCore.CategoryTheory.GradedObject.Monoidal.Summand (2.2s)
+⚠ [5325/5336] Built StacksCore.CategoryTheory.Filtration.Pullbacks (2.7s)
+warning: StacksCore/CategoryTheory/Filtration/Pullbacks.lean:29:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+✔ [5326/5338] Built StacksCore.CategoryTheory.Filtration.Subquotient (4.8s)
+✔ [5328/5339] Built StacksCore.CategoryTheory.Filtration.GradedExact (4.8s)
+✔ [5329/5339] Built StacksCore.CategoryTheory.GradedObject.Monoidal.Dual (3.1s)
+✔ [5330/5339] Built StacksCore.CategoryTheory.GradedObject.Monoidal (1.7s)
+✔ [5331/5340] Built StacksCore.CategoryTheory.GrothendieckGroup.Basic (2.3s)
+✔ [5332/5340] Built StacksCore.CategoryTheory.Filtration.Pushouts (2.2s)
+✔ [5333/5340] Built StacksCore.CategoryTheory.Filtration.GradedStrict (3.8s)
+✔ [5334/5343] Built StacksCore.CategoryTheory.GradedObject.GradedVectorSpace (4.8s)
+✔ [5335/5343] Built StacksCore.CategoryTheory.GrothendieckGroup.Abelian (2.6s)
+✔ [5336/5344] Built StacksCore.CategoryTheory.Filtration.GradedReflectsExact (2.3s)
+✔ [5338/5344] Built StacksCore.CategoryTheory.Limits.Shapes.Opposites.Equalizers (1.3s)
+✔ [5339/5345] Built StacksCore.CategoryTheory.Filtration.Homology (5.2s)
+✔ [5340/5345] Built StacksCore.CategoryTheory.GrothendieckGroup.SerreClass (2.2s)
+✔ [5341/5346] Built StacksCore.CategoryTheory.GrothendieckGroup.PeriodicComplex (2.1s)
+✔ [5342/5346] Built StacksCore.CategoryTheory.Idempotents.Countable (1.4s)
+✔ [5343/5347] Built StacksCore.CategoryTheory.Idempotents.Basic (1.8s)
+✔ [5344/5348] Built StacksCore.CategoryTheory.IsFinitelyPresentable (2.0s)
+✔ [5345/5349] Built StacksCore.CategoryTheory.Limits (1.9s)
+✔ [5346/5350] Built StacksCore.CategoryTheory.Limits.Preserves.Shapes.Zero (1.3s)
+✔ [5347/5351] Built StacksCore.CategoryTheory.Limits.Shapes.Countable (2.3s)
+✔ [5348/5352] Built StacksCore.CategoryTheory.Inertia (8.9s)
+✔ [5349/5353] Built StacksCore.CategoryTheory.Limits.Shapes.Equalizers (3.1s)
+✔ [5350/5354] Built StacksCore.CategoryTheory.Limits.Shapes.Pullback.IsPullback.Kernels (2.7s)
+✔ [5351/5354] Built StacksCore.CategoryTheory.Limits.Shapes.ZeroMorphisms (2.3s)
+✔ [5352/5356] Built StacksCore.CategoryTheory.Limits.Shapes.ZeroObjects (1.0s)
+✔ [5353/5356] Built StacksCore.CategoryTheory.Localization.CalculusOfFraction.Preadditive (2.3s)
+✔ [5354/5359] Built StacksCore.CategoryTheory.Localization.CalculusOfFraction.Abelian (2.0s)
+✔ [5355/5361] Built StacksCore.CategoryTheory.Monoidal.Preadditive (1.8s)
+✔ [5356/5362] Built StacksCore.CategoryTheory.Monoidal.Rigid.Lemmas (1.9s)
+✔ [5357/5363] Built StacksCore.CategoryTheory.ObjectProperty.ContainsZero (1.7s)
+✔ [5358/5363] Built StacksCore.CategoryTheory.Preadditive.AdditiveFunctor (1.9s)
+✔ [5359/5363] Built StacksCore.CategoryTheory.Monoidal.Rigid.Retract (2.3s)
+✔ [5360/5363] Built StacksCore.CategoryTheory.Monoidal.Rigid.Biproducts (1.7s)
+✔ [5361/5363] Built StacksCore.CategoryTheory.Preadditive.Basic (1.4s)
+✔ [5363/5366] Built StacksCore.CategoryTheory.Simple (3.6s)
+✔ [5364/5370] Built StacksCore.CategoryTheory.Presheaf (5.0s)
+✔ [5366/5370] Built StacksCore.CategoryTheory.Sites.Cocontinuous.CocontinuousDefs (2.3s)
+✔ [5367/5371] Built StacksCore.CategoryTheory.Pullback (2.6s)
+✔ [5368/5371] Built StacksCore.CategoryTheory.Sites.Adjunction (2.2s)
+✔ [5369/5371] Built StacksCore.CategoryTheory.Sites.Cohomology.HigherDirectImage.ByInjectiveResolution (3.2s)
+✔ [5378/5384] Built StacksCore.CategoryTheory.Sites.Continuous.ContinuousPushforward (3.0s)
+✔ [5380/5384] Built StacksCore.CategoryTheory.Sites.Descent.MorphismPresheaf (2.0s)
+✔ [5381/5384] Built StacksCore.CategoryTheory.Sites.Limits (4.7s)
+⚠ [5382/5388] Built StacksCore.CategoryTheory.Sites.Descent.DescentData (5.5s)
+warning: StacksCore/CategoryTheory/Sites/Descent/DescentData.lean:96:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+✔ [5384/5388] Built StacksCore.CategoryTheory.Sites.Plus (2.4s)
+✔ [5385/5389] Built StacksCore.CategoryTheory.Sites.Point.StalkAsColimit (2.2s)
+✔ [5386/5390] Built StacksCore.CategoryTheory.Sites.Point.EnoughPoints (1.9s)
+✔ [5387/5390] Built StacksCore.CategoryTheory.Sites.Presheaf.Functoriality.PrecompositionIso (1.9s)
+✔ [5388/5395] Built StacksCore.CategoryTheory.Sites.Pretopology (3.3s)
+✔ [5389/5395] Built StacksCore.CategoryTheory.Sites.Representable.MapsFromRepresentable (2.6s)
+✔ [5391/5395] Built StacksCore.CategoryTheory.Sites.Representable.YonedaMapsOut (2.3s)
+✔ [5392/5396] Built StacksCore.CategoryTheory.Sites.Sheaf (2.3s)
+✔ [5393/5397] Built StacksCore.CategoryTheory.Sites.Sheaf.SheafOnSpaceIsSheafOnSite (4.5s)
+✔ [5394/5398] Built StacksCore.CategoryTheory.Sites.Representable.RepresentableIsSheaf (4.6s)
+✔ [5395/5399] Built StacksCore.CategoryTheory.Sites.Sheafification.PlusFunctorial (4.6s)
+✔ [5396/5400] Built StacksCore.CategoryTheory.Sites.Sheaf.SiteVersusSpace (4.8s)
+✔ [5397/5402] Built StacksCore.CategoryTheory.Sites.Sheafification.PlusPreservesSheaf (8.5s)
+✔ [5398/5402] Built StacksCore.CategoryTheory.Sites.Sheafification.PlusSeparated (8.3s)
+✔ [5399/5406] Built StacksCore.CategoryTheory.Sites.Sheafification.PlusUniversal (7.7s)
+✔ [5400/5406] Built StacksCore.CategoryTheory.Sites.Sheafification.SheafificationAdjoint (7.7s)
+✔ [5402/5406] Built StacksCore.CategoryTheory.SpecificLimits (3.4s)
+✔ [5403/5407] Built StacksCore.Counterexamples.LocalHom (5.0s)
+✔ [5404/5408] Built StacksCore.CategoryTheory.Yoneda (2.7s)
+✔ [5405/5409] Built StacksCore.Data.Finset.Card (1.2s)
+✔ [5406/5409] Built StacksCore.Data.Int.Cast.Lemmas (1.3s)
+✔ [5407/5412] Built StacksCore.Counterexamples.TensorProduct (3.9s)
+✔ [5408/5412] Built StacksCore.Logic.Equiv.Defs (1.3s)
+✔ [5409/5412] Built StacksCore.Data.ZMod.Defs (2.8s)
+✔ [5410/5417] Built StacksCore.Data.Matrix.Basis (4.6s)
+✔ [5413/5421] Built StacksCore.Data.Matrix.Block (5.5s)
+✔ [5418/5424] Built StacksCore.Examples.Stacks09FI (7.7s)
+✔ [5419/5425] Built StacksCore.FieldTheory.IntermediateField.Adjoin.Defs (2.7s)
+✔ [5420/5432] Built StacksCore.FieldTheory.MvRatFunc.Basic (2.7s)
+✔ [5421/5432] Built StacksCore.RingTheory.AlgebraicIndependent.Basic (2.4s)
+✔ [5427/5435] Built StacksCore.FieldTheory.RatFunc.AsPolynomial (8.1s)
+✔ [5429/5435] Built StacksCore.FieldTheory.PurelyTranscendental (9.0s)
+✔ [5430/5435] Built StacksCore.FieldTheory.MvRatFunc.Algebra (4.9s)
+✔ [5431/5435] Built StacksCore.Examples.Stacks09IA (5.0s)
+✔ [5432/5441] Built StacksCore.FieldTheory.AlgebraicClosure (12s)
+✔ [5436/5442] Built StacksCore.Examples.Stacks09I8 (13s)
+✔ [5439/5443] Built StacksCore.FieldTheory.IntermediateField.Basic (3.0s)
+✔ [5440/5443] Built StacksCore.Examples.Stacks09I9 (7.1s)
+✔ [5441/5448] Built StacksCore.FieldTheory.IntermediateField.Adjoin.Algebra (4.9s)
+✔ [5443/5448] Built StacksCore.FieldTheory.Normal.Defs (2.1s)
+✔ [5444/5453] Built StacksCore.FieldTheory.Normal.Basic (2.5s)
+✔ [5445/5454] Built StacksCore.RingTheory.PiTensorProduct (3.3s)
+✔ [5446/5454] Built StacksCore.FieldTheory.Separable (3.7s)
+✔ [5447/5454] Built StacksCore.RingTheory.Trace.Basic (2.5s)
+✔ [5448/5454] Built StacksCore.FieldTheory.Normal.Closure (3.5s)
+✔ [5449/5454] Built StacksCore.FieldTheory.Galois.GaloisClosure (2.6s)
+✔ [5450/5463] Built StacksCore.FieldTheory.SeparableClosure (3.1s)
+✔ [5460/5468] Built StacksCore.FieldTheory.PrimitiveElement (1.9s)
+✔ [5461/5469] Built StacksCore.FieldTheory.Normal.AlgClosed (4.9s)
+✔ [5462/5469] Built StacksCore.FieldTheory.IntermediateField.Adjoin.Basic (1.0s)
+✔ [5463/5469] Built StacksCore.FieldTheory.IntermediateField.Algebraic (1.8s)
+✔ [5464/5474] Built StacksCore.FieldTheory.IsAlgClosed.Basic (2.5s)
+✔ [5466/5475] Built StacksCore.FieldTheory.Galois.Basic (3.4s)
+✔ [5467/5475] Built StacksCore.GroupTheory.Index (1.6s)
+✔ [5468/5475] Built StacksCore.FieldTheory.LiftEmbeddingsEquiv (2.2s)
+✔ [5469/5476] Built StacksCore.FieldTheory.KrullTopology (2.3s)
+✔ [5470/5476] Built StacksCore.FieldTheory.Minpoly.Basic (2.5s)
+✔ [5471/5476] Built StacksCore.GroupTheory.SpecificGroups.Cyclic.Basic (2.6s)
+✔ [5472/5476] Built StacksCore.FieldTheory.ArtinSchreier (6.7s)
+✔ [5473/5476] Built StacksCore.FieldTheory.MvRatFunc.EssFiniteType (2.2s)
+✔ [5474/5482] Built StacksCore.FieldTheory.Galois.Infinite (4.2s)
+✔ [5477/5483] Built StacksCore.FieldTheory.KummerExtension (3.5s)
+✔ [5479/5483] Built StacksCore.FieldTheory.Perfect (1.9s)
+✔ [5480/5483] Built StacksCore.FieldTheory.PrimeField (2.0s)
+✔ [5481/5487] Built StacksCore.FieldTheory.MvRatFunc.Rank (2.9s)
+✔ [5484/5487] Built StacksCore.FieldTheory.RatFunc.Basic (2.8s)
+✔ [5485/5490] Built StacksCore.FieldTheory.PurelyInseparable.Basic (5.8s)
+✔ [5486/5491] Built StacksCore.SetTheory.Cardinal.Basic (1.2s)
+✔ [5487/5492] Built StacksCore.FieldTheory.PurelyInseparable.PerfectClosure (5.6s)
+✔ [5488/5492] Built StacksCore.FieldTheory.RatFunc.Rank (1.7s)
+✔ [5489/5493] Built StacksCore.FieldTheory.SplittingField.Construction (1.8s)
+✔ [5490/5494] Built StacksCore.GroupTheory.MonoidLocalization.Away (1.7s)
+✔ [5491/5495] Built StacksCore.GroupTheory.MonoidLocalization.Basic (1.9s)
+✔ [5492/5496] Built StacksCore.GroupTheory.SpecificGroups.Cyclic (1.8s)
+✔ [5493/5497] Built StacksCore.LinearAlgebra.BilinearMap (2.7s)
+✔ [5494/5498] Built StacksCore.LinearAlgebra.Complex.FiniteDimensional (4.6s)
+✔ [5495/5499] Built StacksCore.LinearAlgebra.Dimension.Finrank (2.3s)
+✔ [5496/5500] Built StacksCore.LinearAlgebra.Dimension.Free (2.4s)
+✔ [5497/5501] Built StacksCore.LinearAlgebra.DirectSum.TensorProduct (2.1s)
+✔ [5498/5502] Built StacksCore.LinearAlgebra.FiniteDimensional.Basic (2.1s)
+✔ [5499/5502] Built StacksCore.LinearAlgebra.InvariantBasisNumber (2.0s)
+✔ [5500/5506] Built StacksCore.FieldTheory.SeparableDegree (29s)
+✔ [5502/5506] Built StacksCore.LinearAlgebra.LinearIndependent.Basic (1.5s)
+✔ [5503/5507] Built StacksCore.LinearAlgebra.Matrix.Charpoly.Basic (2.0s)
+✔ [5504/5508] Built StacksCore.LinearAlgebra.Matrix.Adjugate (1.6s)
+✔ [5505/5509] Built StacksCore.LinearAlgebra.Matrix.Charpoly.LinearMap (1.9s)
+✔ [5506/5510] Built StacksCore.LinearAlgebra.Matrix.Ideal (1.8s)
+✔ [5507/5511] Built StacksCore.LinearAlgebra.Matrix.Minor (2.2s)
+✔ [5508/5512] Built StacksCore.LinearAlgebra.PiTensorProduct.Basic (2.2s)
+✔ [5509/5513] Built StacksCore.LinearAlgebra.Span.Basic (2.3s)
+✔ [5510/5514] Built StacksCore.LinearAlgebra.TensorProduct.Associator (2.9s)
+✔ [5511/5515] Built StacksCore.LinearAlgebra.TensorProduct.Basic (2.0s)
+✔ [5512/5516] Built StacksCore.LinearAlgebra.TensorProduct.DirectLimit (3.1s)
+✔ [5513/5516] Built StacksCore.LinearAlgebra.TensorProduct.RightExactness (3.1s)
+✔ [5514/5520] Built StacksCore.LinearAlgebra.TensorProduct.Tower (3.1s)
+✔ [5516/5520] Built StacksCore.NumberTheory.Cyclotomic.Basic (5.2s)
+✔ [5517/5521] Built StacksCore.NumberTheory.FunctionField (3.0s)
+✔ [5518/5522] Built StacksCore.NumberTheory.Cyclotomic.Gal (3.2s)
+✔ [5519/5523] Built StacksCore.Order.DirectedInverseSystem (2.5s)
+✔ [5520/5524] Built StacksCore.Order.JordanHolder (3.2s)
+✔ [5521/5525] Built StacksCore.RingTheory.Algebraic.Basic (3.2s)
+✔ [5522/5526] Built StacksCore.RingTheory.Artinian.Module (1.9s)
+✔ [5523/5527] Built StacksCore.RingTheory.AlgebraicIndependent.TranscendenceBasis (2.0s)
+✔ [5524/5528] Built StacksCore.RingTheory.EssentialFiniteness (3.2s)
+✔ [5525/5529] Built StacksCore.RingTheory.FinitePresentation (2.7s)
+✔ [5526/5530] Built StacksCore.RingTheory.FiniteType (2.4s)
+✔ [5527/5531] Built StacksCore.RingTheory.FiniteStability (5.5s)
+✔ [5528/5532] Built StacksCore.RingTheory.Finiteness.Defs (3.6s)
+✔ [5529/5532] Built StacksCore.RingTheory.Finiteness.ModuleFinitePresentation (4.3s)
+✔ [5530/5533] Built StacksCore.RingTheory.Flat.Basic (3.7s)
+✔ [5531/5535] Built StacksCore.RingTheory.Flat.FaithfullyFlat.Basic (3.2s)
+✔ [5532/5536] Built StacksCore.RingTheory.Ideal.AssociatedPrime.Finiteness (3.0s)
+✔ [5533/5537] Built StacksCore.RingTheory.Ideal.Maximal (3.5s)
+✔ [5534/5537] Built StacksCore.RingTheory.Ideal.IdempotentFG (3.6s)
+✔ [5535/5540] Built StacksCore.RingTheory.Ideal.MinimalPrime.Basic (2.2s)
+✔ [5537/5545] Built StacksCore.RingTheory.Ideal.Operations (2.4s)
+✔ [5541/5545] Built StacksCore.RingTheory.Jacobson.Ideal (2.4s)
+✔ [5542/5556] Built StacksCore.RingTheory.Ideal.Quotient.Int (3.1s)
+✔ [5550/5557] Built StacksCore.RingTheory.Polynomial.Resultant.Basic (2.5s)
+✔ [5552/5557] Built StacksCore.RingTheory.LocalRing.Basic (2.7s)
+✔ [5553/5558] Built StacksCore.RingTheory.LocalRing.Defs (1.5s)
+✔ [5554/5558] Built StacksCore.RingTheory.LinearDisjoint (2.6s)
+✔ [5555/5559] Built StacksCore.RingTheory.IsQuadraticExtension (5.2s)
+✔ [5556/5560] Built StacksCore.RingTheory.LocalRing.MaximalIdeal.Basic (2.3s)
+✔ [5557/5561] Built StacksCore.RingTheory.LocalRing.MaximalIdeal.Defs (2.0s)
+✔ [5558/5562] Built StacksCore.RingTheory.LocalRing.ResidueField.Defs (2.1s)
+✔ [5559/5563] Built StacksCore.RingTheory.LocalRing.RingHom.Basic (2.1s)
+✔ [5560/5564] Built StacksCore.RingTheory.Localization.AtPrime.Basic (1.9s)
+✔ [5561/5565] Built StacksCore.RingTheory.Localization.Away.Lemmas (2.3s)
+✔ [5562/5566] Built StacksCore.RingTheory.Localization.BaseChange (2.4s)
+✔ [5563/5567] Built StacksCore.RingTheory.Localization.Defs (2.2s)
+✔ [5564/5568] Built StacksCore.RingTheory.Localization.FractionRing (2.4s)
+✔ [5565/5569] Built StacksCore.RingTheory.Localization.Ideal (2.6s)
+✔ [5566/5570] Built StacksCore.RingTheory.Localization.LocalizationLocalization (2.4s)
+✔ [5567/5572] Built StacksCore.RingTheory.Nakayama (3.5s)
+✔ [5568/5572] Built StacksCore.RingTheory.Norm.Transitivity (2.8s)
+✔ [5569/5573] Built StacksCore.RingTheory.PrincipalIdealDomain (2.9s)
+✔ [5570/5574] Built StacksCore.RingTheory.OrezchProperty (3.0s)
+✔ [5571/5575] Built StacksCore.RingTheory.SimpleRing.Defs (1.0s)
+✔ [5572/5576] Built StacksCore.RingTheory.SimpleModule.Basic (2.8s)
+✔ [5573/5577] Built StacksCore.RingTheory.SimpleRing.Field (2.3s)
+✔ [5574/5578] Built StacksCore.RingTheory.Spectrum.Prime.Basic (2.4s)
+✔ [5575/5579] Built StacksCore.RingTheory.Spectrum.Prime.Fiber (3.2s)
+✔ [5576/5580] Built StacksCore.RingTheory.Spectrum.Prime.RingHom (2.8s)
+✔ [5577/5580] Built StacksCore.RingTheory.Support (3.8s)
+✔ [5578/5584] Built StacksCore.RingTheory.Spectrum.Prime.Topology (4.3s)
+✔ [5581/5584] Built StacksCore.RingTheory.TensorProduct.Maps (2.1s)
+✔ [5582/5595] Built StacksCore.RingTheory.TensorProduct.Basic (2.7s)
+✔ [5588/5596] Built StacksCore.Topology.Bases (2.2s)
+✔ [5589/5597] Built StacksCore.RingTheory.TensorProduct.Finite (3.3s)
+✔ [5592/5598] Built StacksCore.Topology.Bases.OfCollection (2.5s)
+✔ [5594/5599] Built StacksCore.Topology.Bases.RefineCover (2.1s)
+✔ [5595/5599] Built StacksCore.Topology.Bases.Subbasis (2.5s)
+✔ [5596/5599] Built StacksCore.Topology.Category.TopCat.Limits.Cofiltered (2.0s)
+✔ [5597/5604] Built StacksCore.SetTheory.ZFC.VonNeumann (3.2s)
+✔ [5598/5604] Built StacksCore.Topology.Compact.AlexanderSubbase (2.4s)
+✔ [5600/5605] Built StacksCore.Topology.Compact.ClosedInHausdorff (1.5s)
+✔ [5601/5605] Built StacksCore.Topology.Compact.ClosedPoints (1.5s)
+✔ [5602/5606] Built StacksCore.Topology.Compact.ClosedPointsKolmogorov (1.4s)
+✔ [5603/5607] Built StacksCore.Topology.Compact.Baire (2.2s)
+✔ [5604/5608] Built StacksCore.Topology.Compact.ClosedSubsets (1.6s)
+✔ [5605/5609] Built StacksCore.Topology.Compact.ComponentsHausdorff (1.4s)
+✔ [5606/5610] Built StacksCore.Topology.Compact.FiniteIntersection (1.2s)
+✔ [5607/5611] Built StacksCore.Topology.Compact.Hausdorff (1.1s)
+✔ [5608/5611] Built StacksCore.Topology.Compact.Image (1.3s)
+✔ [5609/5615] Built StacksCore.Topology.Compact.LocallyHausdorff (1.3s)
+✔ [5611/5615] Built StacksCore.Topology.Compact.LocallyQuasiCompact (1.5s)
+✔ [5612/5616] Built StacksCore.Topology.Connected.Basic (1.5s)
+✔ [5613/5617] Built StacksCore.Topology.Compact.ShrinkCover (968ms)
+✔ [5614/5618] Built StacksCore.Topology.Connected.Clopen (960ms)
+✔ [5615/5619] Built StacksCore.Topology.Connected.ComponentSpace (1.4s)
+✔ [5616/5620] Built StacksCore.Topology.Connected.Components (1.9s)
+✔ [5617/5621] Built StacksCore.Topology.Connected.ConnectedFibres (1.3s)
+✔ [5618/5623] Built StacksCore.Topology.Connected.Image (2.4s)
+✔ [5619/5623] Built StacksCore.Topology.Connected.LocallyConnected (2.2s)
+✔ [5620/5624] Built StacksCore.Topology.Connected.OpenConnectedFibres (1.5s)
+✔ [5621/5624] Built StacksCore.Topology.Connected.TotallyDisconnected (1.9s)
+✔ [5622/5627] Built StacksCore.Topology.Constructible.Boolean (1.3s)
+✔ [5624/5629] Built StacksCore.Topology.Defs.Induced (1.2s)
+✔ [5625/5629] Built StacksCore.Topology.ExtremallyDisconnected.DisjointClosures (1.6s)
+✔ [5626/5630] Built StacksCore.Topology.ExtremallyDisconnected.Defs (1.8s)
+✔ [5627/5631] Built StacksCore.Topology.ExtremallyDisconnected.MinimalSubset (1.0s)
+✔ [5628/5632] Built StacksCore.Topology.ExtremallyDisconnected.OpenImage (1.7s)
+✔ [5629/5634] Built StacksCore.Topology.ExtremallyDisconnected.Surjection (1.6s)
+✔ [5630/5634] Built StacksCore.Topology.Jacobson.Criterion (1.3s)
+✔ [5631/5636] Built StacksCore.Topology.Jacobson.FinitelyManyClosedPoints (2.1s)
+✔ [5632/5636] Built StacksCore.Topology.Limits.Colimits (2.0s)
+✔ [5633/5637] Built StacksCore.Topology.Limits.Nonempty (1.4s)
+✔ [5634/5638] Built StacksCore.Topology.Limits.Tychonoff (1.2s)
+✔ [5635/5639] Built StacksCore.Topology.Limits.QuasiCompactHausdorff (3.3s)
+✔ [5636/5640] Built StacksCore.Topology.Maps.Quotient (1.1s)
+✔ [5637/5641] Built StacksCore.Topology.Maps.Strict (1.7s)
+✔ [5638/5642] Built StacksCore.Topology.Maps.SubmersiveClosed (1.8s)
+✔ [5639/5643] Built StacksCore.Topology.Maps.SubmersiveOpen (2.0s)
+✔ [5640/5644] Built StacksCore.Topology.Noetherian.ConstructiblePreimage (1.7s)
+✔ [5641/5646] Built StacksCore.Topology.Noetherian.Retrocompact (2.2s)
+✔ [5642/5646] Built StacksCore.Topology.NowhereDense.ClosedEmbedding (1.9s)
+✔ [5643/5647] Built StacksCore.Topology.NowhereDense.Local (1.4s)
+✔ [5644/5647] Built StacksCore.Topology.NowhereDense.Defs (1.7s)
+✔ [5645/5651] Built StacksCore.Topology.NowhereDense.OpenMap (1.2s)
+✔ [5647/5651] Built StacksCore.Topology.NowhereDense.Subspace (2.1s)
+✔ [5648/5652] Built StacksCore.Topology.Profinite.ClopenRefinement (1.3s)
+✔ [5649/5653] Built StacksCore.Topology.Proper.Bijection (1.1s)
+✔ [5650/5653] Built StacksCore.Topology.Profinite.Limits (3.6s)
+✔ [5651/5658] Built StacksCore.Topology.Proper.TubeLemma (1.5s)
+✔ [5652/5658] Built StacksCore.Topology.Proper.UniversallyClosed (1.4s)
+✔ [5654/5658] Built StacksCore.Topology.Separation.Diagonal (1.9s)
+✔ [5655/5659] Built StacksCore.Topology.Separation.Section (1.9s)
+✔ [5656/5661] Built StacksCore.Topology.SeparatedMap (3.1s)
+✔ [5657/5661] Built StacksCore.Topology.Separation.SeparatedBaseChange (3.0s)
+✔ [5658/5662] Built StacksCore.Topology.Separation.SeparatedOfHausdorff (1.5s)
+✔ [5659/5663] Built StacksCore.Topology.Sober.Indiscrete (1.6s)
+✔ [5660/5664] Built StacksCore.Topology.Specialization.LiftingBaseChange (4.4s)
+✔ [5661/5666] Built StacksCore.Topology.Specialization.ImageStable (4.5s)
+✔ [5662/5666] Built StacksCore.Topology.Specialization.StableSets (1.6s)
+✔ [5663/5671] Built StacksCore.Topology.Specialization.UnionOfClosed (1.6s)
+✔ [5665/5671] Built StacksCore.Topology.Stratification.LocallyFiniteFamily (1.5s)
+✔ [5668/5674] Built StacksCore (5.9s)
+✔ [5670/5674] Built StacksFrontier.Algebra.Homology.Resolution.Defs.Comparison (7.5s)
+✔ [5671/5674] Built StacksFrontier.LinearAlgebra.DirectSum.CountablyGenerated (4.0s)
+✔ [5672/5675] Built StacksFrontier.LinearAlgebra.DirectSum.ProjectiveCountablyGenerated (4.7s)
+⚠ [5673/5675] Built StacksFrontier.Algebra.Homology.ProjectiveDimension (9.4s)
+warning: StacksFrontier/Algebra/Homology/ProjectiveDimension.lean:124:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+✔ [5675/5680] Built StacksFrontier.Algebra.MittagLeffler.Defs (4.5s)
+✔ [5676/5682] Built StacksFrontier.RingTheory.Flat.EquationalCriterion (4.5s)
+✔ [5677/5683] Built StacksFrontier.RingTheory.UniversallyExact (13s)
+✔ [5678/5685] Built StacksFrontier.RingTheory.Flat.UniversallyInjective (15s)
+✔ [5679/5686] Built StacksFrontier.RingTheory.Module.Dominates (4.8s)
+✔ [5680/5688] Built StacksFrontier.RingTheory.FinitePresentation.ModuleDescent.SubringDescent (5.4s)
+✔ [5681/5688] Built StacksFrontier.RingTheory.Module.Factorization (3.7s)
+✔ [5682/5693] Built StacksFrontier.Algebra.MittagLeffler.TensorProduct (5.5s)
+✔ [5683/5693] Built StacksFrontier.RingTheory.Module.Finiteness.TensorProductPi (8.9s)
+✔ [5684/5693] Built StacksFrontier.RingTheory.Module.FinitePresentation.Factorization (8.1s)
+✔ [5685/5698] Built StacksFrontier.RingTheory.Module.FinitePresentation.TensorProductPi (8.7s)
+✔ [5686/5698] Built StacksFrontier.RingTheory.Coherent.Basic (5.7s)
+✔ [5687/5699] Built StacksFrontier.RingTheory.Coherent.Flat (5.7s)
+✔ [5688/5701] Built StacksFrontier.RingTheory.FinitePresentation.ModuleDescent.ModuleColimit (84s)
+⚠ [5689/5702] Built StacksFrontier.RingTheory.Module.DirectLimit.Countable (9.2s)
+warning: StacksFrontier/RingTheory/Module/DirectLimit/Countable.lean:524:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+✔ [5690/5704] Built StacksFrontier.RingTheory.FinitePresentation.ModuleDescent.ColimitRing (13s)
+✔ [5691/5704] Built StacksFrontier.RingTheory.Nilpotent.Descent (14s)
+✔ [5692/5704] Built StacksFrontier.Algebra.MittagLeffler.InverseSystem (9.3s)
+✔ [5693/5705] Built StacksFrontier.RingTheory.FinitePresentation.ModuleDescent.LinearMapDescent (19s)
+⚠ [5694/5714] Built StacksFrontier.RingTheory.Flat.FaithfullyFlat.Descent (13s)
+warning: StacksFrontier/RingTheory/Flat/FaithfullyFlat/Descent.lean:182:2: 'Module.FinitePresentation.of_isBaseChange_of_faithfullyFlat' already carries this reference; skipping duplicate.
+warning: StacksFrontier/RingTheory/Flat/FaithfullyFlat/Descent.lean:183:2: 'Module.FinitePresentation.of_isBaseChange_of_faithfullyFlat' already carries this reference; skipping duplicate.
+warning: StacksFrontier/RingTheory/Flat/FaithfullyFlat/Descent.lean:183:43: 'Module.FinitePresentation.of_isBaseChange_of_faithfullyFlat' already carries this reference; skipping duplicate.
+✔ [5697/5714] Built StacksFrontier.RingTheory.FinitePresentation.ModuleDescent (5.6s)
+✔ [5699/5714] Built StacksFrontier.Algebra.MittagLeffler.DirectSum (8.2s)
+✔ [5700/5721] Built StacksFrontier.Algebra.Homology.ProjectiveDimension.FiniteResolution (11s)
+✔ [5703/5721] Built StacksFrontier.Algebra.MittagLeffler.Criteria (14s)
+✔ [5704/5721] Built StacksFrontier.Algebra.Homology.ProjectiveDimension.Defs (7.2s)
+✔ [5705/5722] Built StacksFrontier.RingTheory.LocalRing.EmbeddingDimension (15s)
+✔ [5706/5722] Built StacksFrontier.Algebra.MittagLeffler.TensorProductPi (6.1s)
+✔ [5707/5722] Built StacksFrontier.Algebra.MittagLeffler.Descent (10s)
+✔ [5709/5722] Built StacksFrontier.Algebra.MittagLeffler.Basic (3.9s)
+✔ [5710/5722] Built StacksFrontier.RingTheory.ProjectiveDimension.AuslanderBuchsbaum (7.7s)
+✔ [5711/5722] Built StacksFrontier.Algebra.MittagLeffler.ShortExact (9.0s)
+✔ [5712/5724] Built StacksFrontier.Algebra.MittagLeffler.Flat (10s)
+✔ [5713/5724] Built StacksFrontier.RingTheory.ProjectiveDimension.KrullDimension (3.4s)
+✔ [5714/5725] Built StacksFrontier.Algebra.MittagLeffler.Projective (4.8s)
+✔ [5717/5725] Built StacksFrontier.Algebra.MittagLeffler.Pi (2.4s)
+✔ [5719/5730] Built StacksFrontier.Algebra.MittagLeffler.ProjectiveCharacterization (2.1s)
+✔ [5733/5743] Built StacksFrontier.Algebra.MittagLeffler.MvPowerSeries (1.9s)
+✔ [5735/5743] Built StacksFrontier.RingTheory.Syntomic.Basic (3.8s)
+✔ [5736/5746] Built StacksFrontier.RingTheory.Smooth.LocusBaseChange (3.0s)
+✔ [5737/5747] Built StacksFrontier.Algebra.Module.Projective.CountablyGenerated (3.6s)
+✔ [5738/5748] Built StacksFrontier.RingTheory.Module.LocallyFree.Basic (3.9s)
+✔ [5739/5750] Built StacksFrontier.RingTheory.Module.Kaplansky (4.9s)
+✔ [5740/5751] Built StacksFrontier.RingTheory.LocalRing.ProjectiveDimension (4.0s)
+✔ [5741/5751] Built StacksFrontier.RingTheory.RegularLocalRing.GlobalDimension (4.9s)
+⚠ [5742/5752] Built StacksFrontier.RingTheory.Smooth.Conormal (15s)
+warning: StacksFrontier/RingTheory/Smooth/Conormal.lean:365:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/Conormal.lean:370:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/Conormal.lean:429:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/Conormal.lean:593:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/Conormal.lean:724:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/Conormal.lean:730:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/Conormal.lean:738:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/Conormal.lean:849:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/Conormal.lean:880:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/Conormal.lean:979:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/Conormal.lean:1159:2: 'KaehlerDifferential.split_exact_kerCotangentToTensor_mapBaseChange' already carries this reference; skipping duplicate.
+warning: StacksFrontier/RingTheory/Smooth/Conormal.lean:1279:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+✔ [5743/5754] Built StacksFrontier.RingTheory.RegularLocalRing.FlatLocalHom (4.0s)
+✔ [5744/5754] Built StacksFrontier.RingTheory.Kaehler.Separable (3.2s)
+⚠ [5745/5759] Built StacksFrontier.RingTheory.Depth.FlatLocalHom (9.6s)
+warning: StacksFrontier/RingTheory/Depth/FlatLocalHom.lean:532:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Depth/FlatLocalHom.lean:668:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Depth/FlatLocalHom.lean:680:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Depth/FlatLocalHom.lean:821:16: 'Module.depth_tensorProduct_of_flat' already carries this reference; skipping duplicate.
+⚠ [5746/5759] Built StacksFrontier.RingTheory.Ideal.AssociatedPrime.Basic (3.3s)
+warning: StacksFrontier/RingTheory/Ideal/AssociatedPrime/Basic.lean:164:64: `Set.Infinite.diff` has been deprecated: Use `Set.Infinite.sdiff` instead
+✔ [5747/5759] Built StacksFrontier.RingTheory.Depth.Defs (2.9s)
+✔ [5748/5759] Built StacksFrontier.RingTheory.KrullDimension.QuotientHeight (1.6s)
+⚠ [5749/5765] Built StacksFrontier.RingTheory.Smooth.RegularLocalRing.ClosedPointRegularity (6.6s)
+warning: StacksFrontier/RingTheory/Smooth/RegularLocalRing/ClosedPointRegularity.lean:139:10: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/RegularLocalRing/ClosedPointRegularity.lean:178:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/RegularLocalRing/ClosedPointRegularity.lean:232:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/RegularLocalRing/ClosedPointRegularity.lean:249:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/RegularLocalRing/ClosedPointRegularity.lean:302:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/RegularLocalRing/ClosedPointRegularity.lean:304:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/RegularLocalRing/ClosedPointRegularity.lean:306:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/RegularLocalRing/ClosedPointRegularity.lean:393:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/RegularLocalRing/ClosedPointRegularity.lean:398:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Smooth/RegularLocalRing/ClosedPointRegularity.lean:419:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+✔ [5750/5765] Built StacksFrontier.RingTheory.Serre.Defs (4.6s)
+✔ [5751/5767] Built StacksFrontier.Data.ENat.WithBotNatCast (1.8s)
+⚠ [5752/5767] Built StacksFrontier.RingTheory.Smooth.RegularLocalRing.LocalDimensionCriterion (5.7s)
+warning: StacksFrontier/RingTheory/Smooth/RegularLocalRing/LocalDimensionCriterion.lean:233:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+✔ [5753/5767] Built StacksFrontier.RingTheory.Serre.FlatAscent (11s)
+⚠ [5754/5767] Built StacksFrontier.RingTheory.Sequence.RegularLocus (9.2s)
+warning: StacksFrontier/RingTheory/Sequence/RegularLocus.lean:74:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: StacksFrontier/RingTheory/Sequence/RegularLocus.lean:792:100: This line exceeds the 100 character limit, please shorten it!
+You can use "string gaps" to format long strings: within a string quotation, using a '\' at the end of a line allows you to continue the string on the following line, removing all intervening whitespace.
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+✔ [5755/5767] Built StacksFrontier.AlgebraicGeometry.Topologies.ZariskiTopology.StandardCoverings (2.2s)
+✔ [5756/5767] Built StacksFrontier.RingTheory.Smooth.RegularLocalRing.SeparableResidueRegular (5.5s)
+⚠ [5757/5767] Built StacksFrontier.AlgebraicGeometry.Topologies.Zariski.StandardCovering (2.5s)
+warning: StacksFrontier/AlgebraicGeometry/Topologies/Zariski/StandardCovering.lean:82:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/AlgebraicGeometry/Topologies/Zariski/StandardCovering.lean:90:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+⚠ [5758/5767] Built StacksFrontier.RingTheory.Smooth.RegularLocalRing.CharZeroRegularity (3.8s)
+warning: StacksFrontier/RingTheory/Smooth/RegularLocalRing/CharZeroRegularity.lean:378:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+✔ [5759/5769] Built StacksFrontier.RingTheory.Smooth.RegularLocalRing (2.7s)
+⚠ [5760/5769] Built StacksFrontier.RingTheory.Syntomic.Morphisms (14s)
+warning: StacksFrontier/RingTheory/Syntomic/Morphisms.lean:114:10: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Syntomic/Morphisms.lean:124:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Syntomic/Morphisms.lean:292:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Syntomic/Morphisms.lean:573:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Syntomic/Morphisms.lean:580:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Syntomic/Morphisms.lean:640:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Syntomic/Morphisms.lean:665:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Syntomic/Morphisms.lean:883:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Syntomic/Morphisms.lean:888:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+⚠ [5761/5769] Built StacksFrontier.RingTheory.Smooth.RegularRing (3.0s)
+warning: StacksFrontier/RingTheory/Smooth/RegularRing.lean:123:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: StacksFrontier/RingTheory/Smooth/RegularRing.lean:184:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [5762/5769] Built StacksFrontier.RingTheory.Module.DirectLimit.FinitePresentation (4.8s)
+warning: StacksFrontier/RingTheory/Module/DirectLimit/FinitePresentation.lean:187:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+✔ [5763/5770] Built StacksFrontier.RingTheory.CompleteIntersection.Smooth (3.5s)
+✔ [5764/5771] Built StacksFrontier.RingTheory.Smooth.Syntomic (3.5s)
+✔ [5765/5771] Built StacksFrontier.RingTheory.FinitePresentation.FiniteTypeSystem (5.0s)
+✔ [5766/5773] Built StacksFrontier.LinearAlgebra.Matrix.DeterminantalRank.ExteriorRank (4.4s)
+✔ [5767/5773] Built StacksFrontier.AlgebraicGeometry.Morphisms.Syntomic.RingHomProperty (4.7s)
+⚠ [5768/5775] Built StacksFrontier.LinearAlgebra.Matrix.DeterminantalRank.ComplexRank (3.9s)
+warning: StacksFrontier/LinearAlgebra/Matrix/DeterminantalRank/ComplexRank.lean:430:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/LinearAlgebra/Matrix/DeterminantalRank/ComplexRank.lean:434:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+✔ [5769/5775] Built StacksFrontier.AlgebraicGeometry.Morphisms.Syntomic.Basic (3.5s)
+⚠ [5770/5776] Built StacksFrontier.LinearAlgebra.Matrix.DeterminantalRank.SumOfTrivials (5.7s)
+warning: StacksFrontier/LinearAlgebra/Matrix/DeterminantalRank/SumOfTrivials.lean:155:15: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/LinearAlgebra/Matrix/DeterminantalRank/SumOfTrivials.lean:157:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/LinearAlgebra/Matrix/DeterminantalRank/SumOfTrivials.lean:200:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/LinearAlgebra/Matrix/DeterminantalRank/SumOfTrivials.lean:204:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/LinearAlgebra/Matrix/DeterminantalRank/SumOfTrivials.lean:208:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/LinearAlgebra/Matrix/DeterminantalRank/SumOfTrivials.lean:212:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/LinearAlgebra/Matrix/DeterminantalRank/SumOfTrivials.lean:253:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/LinearAlgebra/Matrix/DeterminantalRank/SumOfTrivials.lean:281:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+⚠ [5771/5776] Built StacksFrontier.Algebra.Homology.FiniteFreeComplex.SplitOffElementary (10s)
+warning: StacksFrontier/Algebra/Homology/FiniteFreeComplex/SplitOffElementary.lean:199:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/Algebra/Homology/FiniteFreeComplex/SplitOffElementary.lean:213:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/Algebra/Homology/FiniteFreeComplex/SplitOffElementary.lean:235:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/Algebra/Homology/FiniteFreeComplex/SplitOffElementary.lean:330:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/Algebra/Homology/FiniteFreeComplex/SplitOffElementary.lean:367:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/Algebra/Homology/FiniteFreeComplex/SplitOffElementary.lean:628:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/Algebra/Homology/FiniteFreeComplex/SplitOffElementary.lean:707:14: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+⚠ [5772/5778] Built StacksFrontier.Algebra.Homology.FiniteFreeComplex.BoundedFreeComplex (7.0s)
+warning: StacksFrontier/Algebra/Homology/FiniteFreeComplex/BoundedFreeComplex.lean:625:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/Algebra/Homology/FiniteFreeComplex/BoundedFreeComplex.lean:630:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+✔ [5773/5780] Built StacksFrontier.AlgebraicGeometry.Topologies.Syntomic.Coverings (5.0s)
+✔ [5774/5780] Built StacksFrontier.LinearAlgebra.Matrix.DeterminantalRank (4.1s)
+⚠ [5775/5781] Built StacksFrontier.Algebra.Homology.FiniteFreeComplex.ReductionModNonzerodivisor (3.7s)
+warning: StacksFrontier/Algebra/Homology/FiniteFreeComplex/ReductionModNonzerodivisor.lean:109:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/Algebra/Homology/FiniteFreeComplex/ReductionModNonzerodivisor.lean:140:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/Algebra/Homology/FiniteFreeComplex/ReductionModNonzerodivisor.lean:152:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+⚠ [5776/5782] Built StacksFrontier.Algebra.Homology.FiniteFreeComplex.TrivialIsoOfExact (11s)
+warning: StacksFrontier/Algebra/Homology/FiniteFreeComplex/TrivialIsoOfExact.lean:385:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/Algebra/Homology/FiniteFreeComplex/TrivialIsoOfExact.lean:513:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/Algebra/Homology/FiniteFreeComplex/TrivialIsoOfExact.lean:576:10: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/Algebra/Homology/FiniteFreeComplex/TrivialIsoOfExact.lean:594:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+✔ [5777/5788] Built StacksFrontier.RingTheory.Depth.Acyclicity (5.3s)
+✔ [5778/5793] Built StacksFrontier.Algebra.Homology.FiniteFreeComplex (2.0s)
+✔ [5779/5793] Built StacksFrontier.RingTheory.Flat.FlatAtPointCriteria (2.0s)
+✔ [5780/5793] Built StacksFrontier.Algebra.Homology.Resolution.Existence (3.1s)
+✔ [5781/5793] Built StacksFrontier.RingTheory.Depth.ExactnessCriterion.MinorsAndDepth (6.7s)
+✔ [5782/5796] Built StacksFrontier.RingTheory.Depth.ExactnessCriterion.DepthZero (7.3s)
+✔ [5783/5796] Built StacksFrontier.RingTheory.RegularLocalRing.MvPolynomialFiber (4.1s)
+✔ [5784/5796] Built StacksFrontier.Algebra.Homology.Resolution.Syzygies (4.5s)
+⚠ [5785/5798] Built StacksFrontier.RingTheory.Algebra.DirectLimit.Hom (9.5s)
+warning: StacksFrontier/RingTheory/Algebra/DirectLimit/Hom.lean:71:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [5786/5799] Built StacksFrontier.RingTheory.Depth.ExactnessCriterion.NumericalConditions (11s)
+warning: StacksFrontier/RingTheory/Depth/ExactnessCriterion/NumericalConditions.lean:271:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Depth/ExactnessCriterion/NumericalConditions.lean:283:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Depth/ExactnessCriterion/NumericalConditions.lean:287:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Depth/ExactnessCriterion/NumericalConditions.lean:470:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Depth/ExactnessCriterion/NumericalConditions.lean:474:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Depth/ExactnessCriterion/NumericalConditions.lean:595:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+⚠ [5787/5801] Built StacksFrontier.RingTheory.Flat.SyzygyFreeLocus (14s)
+warning: StacksFrontier/RingTheory/Flat/SyzygyFreeLocus.lean:207:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Flat/SyzygyFreeLocus.lean:290:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Flat/SyzygyFreeLocus.lean:306:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Flat/SyzygyFreeLocus.lean:487:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+⚠ [5789/5801] Built StacksFrontier.RingTheory.Depth.ExactnessCriterion.Converse (12s)
+warning: StacksFrontier/RingTheory/Depth/ExactnessCriterion/Converse.lean:369:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Depth/ExactnessCriterion/Converse.lean:502:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+✔ [5790/5801] Built StacksFrontier.Topology.Specialization.Lifting (3.8s)
+✔ [5791/5806] Built StacksFrontier.RingTheory.Ideal.GoingUpGoingDown.Defs (9.5s)
+✔ [5793/5806] Built StacksFrontier.RingTheory.Depth.ExactnessCriterion (4.6s)
+✔ [5794/5806] Built StacksFrontier.Topology.Spectral.ConstructibleTopology (5.0s)
+✔ [5795/5806] Built StacksFrontier.RingTheory.MvPolynomial.MaximalIdeal (7.7s)
+✔ [5796/5809] Built StacksFrontier.Topology.Spectral.ConstructibleProfinite (4.1s)
+✔ [5797/5811] Built StacksFrontier.RingTheory.Spectrum.Prime.Specialization (4.4s)
+✔ [5798/5811] Built StacksFrontier.RingTheory.Flat.FiberExactLocus (10s)
+⚠ [5799/5811] Built StacksFrontier.RingTheory.CohenMacaulay.FlatLocalHom (5.4s)
+warning: StacksFrontier/RingTheory/CohenMacaulay/FlatLocalHom.lean:149:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+⚠ [5800/5811] Built StacksFrontier.RingTheory.Kaehler.SmoothRingMapsInTheNoetherianCase (11s)
+warning: StacksFrontier/RingTheory/Kaehler/SmoothRingMapsInTheNoetherianCase.lean:172:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Kaehler/SmoothRingMapsInTheNoetherianCase.lean:369:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Kaehler/SmoothRingMapsInTheNoetherianCase.lean:410:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+✔ [5801/5811] Built StacksFrontier.RingTheory.Flat.RegularSequence (11s)
+✔ [5802/5812] Built StacksFrontier.RingTheory.Flat.MiracleFlatness (8.1s)
+✔ [5803/5813] Built StacksFrontier.RingTheory.CohenMacaulay.Locus (5.0s)
+⚠ [5805/5815] Built StacksFrontier.RingTheory.Flat.OpenFlatLocusNoetherian (34s)
+warning: StacksFrontier/RingTheory/Flat/OpenFlatLocusNoetherian.lean:647:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+⚠ [5806/5817] Built StacksFrontier.RingTheory.Tor.Balancing.DoubleComplex (9.1s)
+warning: StacksFrontier/RingTheory/Tor/Balancing/DoubleComplex.lean:379:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+⚠ [5807/5817] Built StacksFrontier.RingTheory.Tor.Balancing.TorShift (12s)
+warning: StacksFrontier/RingTheory/Tor/Balancing/TorShift.lean:396:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/TorShift.lean:657:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/TorShift.lean:683:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/TorShift.lean:825:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+⚠ [5808/5820] Built StacksFrontier.RingTheory.Tor.Balancing.RowComparison (6.6s)
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:147:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:169:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:193:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:206:12: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:252:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:291:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:304:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:324:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:370:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:406:10: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:418:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:422:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:423:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:477:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:487:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:489:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:516:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:528:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:532:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/RowComparison.lean:533:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+✔ [5809/5820] Built StacksFrontier.RingTheory.Flat.OpenFlatLocus (29s)
+⚠ [5810/5820] Built StacksFrontier.RingTheory.Tor.Balancing.CanonicalIso (5.8s)
+warning: StacksFrontier/RingTheory/Tor/Balancing/CanonicalIso.lean:158:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/CanonicalIso.lean:313:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/CanonicalIso.lean:343:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/CanonicalIso.lean:345:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/CanonicalIso.lean:348:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/CanonicalIso.lean:382:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/CanonicalIso.lean:384:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/CanonicalIso.lean:434:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+⚠ [5811/5820] Built StacksFrontier.RingTheory.Tor.Balancing.Horseshoe (13s)
+warning: StacksFrontier/RingTheory/Tor/Balancing/Horseshoe.lean:188:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/Horseshoe.lean:191:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/Horseshoe.lean:227:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/Horseshoe.lean:590:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+⚠ [5812/5826] Built StacksFrontier.RingTheory.Tor.Balancing.Naturality (10s)
+warning: StacksFrontier/RingTheory/Tor/Balancing/Naturality.lean:194:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/Naturality.lean:197:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/Naturality.lean:278:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/Balancing/Naturality.lean:688:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+✔ [5813/5826] Built StacksFrontier.RingTheory.SpreadingOut.FlatModel.FiniteTypeModel (16s)
+✔ [5814/5827] Built StacksFrontier.CategoryTheory.Abelian.Projective.ResolutionLift (6.5s)
+✔ [5815/5830] Built StacksFrontier.RingTheory.Tor.Balancing (6.5s)
+⚠ [5816/5830] Built StacksFrontier.RingTheory.SpreadingOut.FlatModel.UniverseTransport (9.4s)
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/UniverseTransport.lean:89:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/UniverseTransport.lean:190:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/UniverseTransport.lean:199:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/UniverseTransport.lean:202:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/UniverseTransport.lean:205:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/UniverseTransport.lean:238:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/UniverseTransport.lean:248:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/UniverseTransport.lean:290:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/UniverseTransport.lean:297:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/UniverseTransport.lean:300:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/UniverseTransport.lean:323:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/UniverseTransport.lean:332:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+✔ [5817/5830] Built StacksFrontier.RingTheory.SpreadingOut.FlatModel.DirectedModel (16s)
+✔ [5818/5833] Built StacksFrontier.CategoryTheory.Abelian.Projective.Horseshoe (7.7s)
+⚠ [5819/5833] Built StacksFrontier.RingTheory.Tor.AlmostFlatResolution (4.6s)
+warning: StacksFrontier/RingTheory/Tor/AlmostFlatResolution.lean:83:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/AlmostFlatResolution.lean:96:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/AlmostFlatResolution.lean:141:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/Tor/AlmostFlatResolution.lean:238:2: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+✔ [5820/5833] Built StacksFrontier.RingTheory.Flat.TowerLTensor (3.5s)
+⚠ [5821/5834] Built StacksFrontier.RingTheory.SpreadingOut.FlatModel.Packaged (14s)
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/Packaged.lean:147:4: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/Packaged.lean:162:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/Packaged.lean:165:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/Packaged.lean:169:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/Packaged.lean:176:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/Packaged.lean:191:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/Packaged.lean:194:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/Packaged.lean:198:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/Packaged.lean:205:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/Packaged.lean:242:10: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/Packaged.lean:249:10: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/Packaged.lean:282:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/Packaged.lean:313:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/Packaged.lean:325:6: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/Packaged.lean:344:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/Packaged.lean:347:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/Packaged.lean:353:10: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+warning: StacksFrontier/RingTheory/SpreadingOut/FlatModel/Packaged.lean:361:8: The `show` tactic should only be used to indicate intermediate goal states for readability.
+However, this tactic invocation changed the goal. Please use `change` instead for these purposes.
+
+Note: This linter can be disabled with `set_option linter.style.show false`
+✔ [5822/5835] Built StacksFrontier.RingTheory.SpreadingOut.FlatModel (4.3s)
+✔ [5824/5837] Built StacksFrontier.RingTheory.EssentialFiniteness.Defs (10s)

@@ -1,0 +1,6 @@
+import Weil.AlgebraicGeometry.EtaleCohomology.Trace.WeilEstimateFromPurityAllEmbeddings
+import Weil.AlgebraicGeometry.EtaleCohomology.Trace.FrobeniusPoincarePairing
+
+#print axioms Stacks.EtaleCohomology.isAlgebraic_and_norm_eq_of_forall_isCharpolyPureOfWeight
+#print axioms Stacks.EtaleCohomology.isWeilNumber_of_forall_isCharpolyPureOfWeight
+#print axioms Stacks.EtaleCohomology.isWeilNumber_of_isCharpolyPureOfWeight_comp

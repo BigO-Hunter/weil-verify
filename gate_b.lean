@@ -1,0 +1,8 @@
+import StacksFrontier.AlgebraicGeometry.EtaleCohomology.Trace.FrobeniusWeights
+import StacksFrontier.AlgebraicGeometry.EtaleCohomology.Trace.EigenvalueAlgebraicity
+
+#print axioms Stacks.EtaleCohomology.IsWeilNumber.norm_pos
+#print axioms Stacks.EtaleCohomology.IsWeilNumber.weight_unique
+#print axioms Stacks.EtaleCohomology.IsWeilNumber.zpow_div
+#print axioms Stacks.EtaleCohomology.isPureOfWeight_of_duality
+#print axioms Stacks.EtaleCohomology.exists_ringHom_complex_eq_of_transcendental
