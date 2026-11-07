@@ -128,6 +128,15 @@ the central estimate, ± the host's contention.
    restarts an unattended 7-day job. Passes now repeat until the closure is empty,
    or until a full pass builds nothing (kills genuinely not resolving).
 
+### Residual risk (stated, not hidden)
+
+The builder heals itself across **child** kills (measured, twice) and across
+passes, but it does **not** restart itself if the *builder process* dies — a
+reboot, a host OOM kill of the python process, or a peer's
+`pkill -f serial_build_multi`. Nothing in this lane supervises it. If it is
+absent, the resume block above is the whole recovery; `build_state.json` shows
+what was outstanding and the oleans already built are never lost.
+
 ## What "done" looks like
 
 `build_state.json` reaches `remaining: 0`, then:
