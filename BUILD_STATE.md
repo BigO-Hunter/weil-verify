@@ -3,17 +3,17 @@
 Live state of the axiom-gate build. Numbers below are measured, not estimated;
 each is stamped with the time it was taken.
 
-## Current status (2026-11-07 12:40 launch)
+## Current status (2026-11-07 12:52 relaunch)
 
 | item | value |
 |---|---|
-| builder | `~/bigo-campaign/scripts/serial_build_multi.py` (pid 3727, detached, `caffeinate -i nice -n 10`) |
+| builder | `~/bigo-campaign/scripts/serial_build_multi.py` (pid 298, detached, `caffeinate -i nice -n 10`) |
 | entries | `Trace.LaumonFourierLineAwayFibreOffTop`, `Trace.WeilIIWeightBound`, `FourierDeligne.LaumonFourierLineAbsIrrInputProof`, `Weil…Trace.DeligneWeilConjecture` |
 | union closure | **29,230 modules** (local, incl. Mathlib) |
-| unbuilt at launch | **19,383** |
-| built (Stacks oleans) | 1,071 at 12:45 (from 1,042 at 12:11) |
+| unbuilt at relaunch | **19,356** (19,383 at first launch; 27 built in the first 12 min) |
+| built (Stacks oleans) | 1,098 at 12:55 → rising at ~120/h (from 1,042 at 12:11) |
 | budget | 600,000 s ≈ 6.9 days, resumable |
-| log | `build_serial.log` (append-only, one line per chunk) |
+| log | `build_serial.log` (append-only) |
 | state | `build_state.json` (cursor, built, rate/h, ETA days) |
 
 Per-target unbuilt counts at 12:22 (my own closure walk, `closure_analyze.py`,
@@ -56,19 +56,54 @@ PY
 Check progress: `tail -3 build_serial.log` and
 `find Weil/.lake/packages/Stacks/.lake/build/lib/lean -name '*.olean' | wc -l`.
 
+## Host pressure: the governor that decides the ETA (measured, not inferred)
+
+The real wall on this host is not Lean and not the tree — it is
+**`multiaim_agents.daemons.lean_build_governor`**, running in `enforce` mode with a
+**host-wide** aggregate ceiling, not a per-tree one:
+
+| knob | value |
+|---|---|
+| `LEAN_TREE_MAX_RSS_MB` (all lean processes, every lane) | 24,576 |
+| `LEAN_MAX_RSS_MB` (per process) | 12,288 |
+| policy | SIGSTOP (freeze) → thaw on relief, or KILL if still over ceiling ~300 s later **and** the host is dying |
+
+Observed against this lane's children (from `~/.multiaim/logs/com.multiaim.lean-build-governor.log`):
+
+* `FROZE … pid 43969 … weil-verify/Weil/.lake/packages/Stacks/…` then
+  `THAWED … after 80 s frozen` — our module was paused mid-compile and resumed.
+* `FROZE … pid 13708 … weil-verify/…` — same, again. Freezes are absorbed: the
+  builder waits in `communicate()`, and `--timeout-s 5400` tolerates a 300 s freeze.
+* **No `KILLED` line names a weil-verify pid.** Every kill in the log belongs to
+  another lane (the 13 GB `CLZCert` module).
+* **Unattributed SIGTERMs** hit two chunks (12:42:24, 139 s in; 12:52:53, 51 s in),
+  with zero Lean errors in the log. Not the governor: that daemon uses only
+  SIGSTOP/SIGCONT/SIGKILL, never SIGTERM (verified in
+  `daemons/lean_build_governor.py`), and no ledger entry names our pids. Both
+  landed 1–2 min after a detached launch, suggesting an external reaper reacting
+  to new lean processes; unresolved. The builder isolated each to per-module
+  builds and rebuilt every module with **0 net oleans lost** — the kill-absorbing
+  property exercised for real, twice, not just claimed. Cost is one in-flight
+  compile per kill, i.e. ≤ one module of work, and progress continued through it
+  (1,084 → 1,098 oleans across the two).
+
+Consequence for planning: the ETA is contingent on peer lanes' Lean footprint.
+Raising `LEAN_TREE_MAX_RSS_MB` here is deliberately **not** done — swap is at
+~99 % of 39.9 GB and the governor's ceiling exists precisely to stop this host
+dying. Our lane stays small (one module in flight, `LAKE_JOBS=1`).
+
 ## Rate and ETA
 
-Measured on this host under its current load (load avg ~270 on 16 cores, swap
-39.7/39.9 GB used). Early modules are cheap (8 modules / 43 s ⇒ 520/h; 8 / 102 s
-⇒ 366/h); the historical long-window figure for the same tree is **121
-oleans/hour**, which is the number to plan with because it was taken across
-mixed heavy modules:
+Measured this session on the cheap foundational layers (chunked, 4 modules per
+invocation): **269/h** over the first chunk, **130/h** on the second as module
+weight rose. The historical long-window figure for this tree — the one to plan
+with — is **121 oleans/hour**:
 
-> 19,383 unbuilt ÷ 121/h ≈ 160 h ≈ **6.7 days** of continuous single-job building.
+> 19,356 unbuilt ÷ 121/h ≈ 160 h ≈ **6.7 days** of continuous single-job building.
 
-That figure moves only with host contention, which this lane does not control
-(five unrelated Lean builds were running at launch). The builder is memory-frugal
-by construction: one module in flight, `LAKE_JOBS=1`, `LEAN_NUM_THREADS=1`.
+Early-phase logs are the optimistic tail of that curve (foundational modules run
+20–45 s each); the étale-cohomology core is minutes per module. Treat 6.7 days as
+the central estimate, ± the host's contention.
 
 ## Defects found in the tooling (recorded here because this repo is the lane's register)
 
@@ -87,6 +122,11 @@ by construction: one module in flight, `LAKE_JOBS=1`, `LEAN_NUM_THREADS=1`.
 3. **`setsid` does not exist on macOS.** A launch wrapper written for Linux
    (`setsid nohup …`) exits immediately with no log file and no error visible to
    the caller. Detach with `subprocess.Popen(..., start_new_session=True)`.
+4. **My own first draft exited after a single pass** — caught at arm-up, before the
+   long run: a SIGTERM during the first chunk showed that a kill leaves its module
+   unbuilt, and a one-pass loop then exits `3` with that module abandoned; nobody
+   restarts an unattended 7-day job. Passes now repeat until the closure is empty,
+   or until a full pass builds nothing (kills genuinely not resolving).
 
 ## What "done" looks like
 
