@@ -40,3 +40,14 @@ Open work: serial builds of the remaining Weil-family certificates under the ~11
 ## License
 
 Licensed under the Copy-Free/Stays-Free (CFSF) License — see [LICENSE](LICENSE) ([github.com/darkhipo/cfsf](https://github.com/darkhipo/cfsf)). CFSF: copy-free (use for any purpose) and stays-free (nobody may fence this work). The name is unclaimed in software licensing (checked 2026-11-09) and is deliberately not "Copyfree" — the Copyfree Initiative's certification mark — since CFSF's anti-enclosure condition is excluded by their standard. 
+
+## Lane: weil-verify-lane (2026-11-09) — AxiomMath/Weil compile-or-gap
+
+Status **PARTIAL** — see [LANE_RECEIPT_weil-verify-lane.md](LANE_RECEIPT_weil-verify-lane.md). Key findings:
+the 11-08 "8 hard failures" were SIGTERM kills misclassified as compile errors (all `rc=1 []`;
+`RegularSubring` rebuilds clean) — the build stalled ~30 h on a solved problem; relaunch now runs the
+7-entry union (4 prior + `DeligneFunctionalEquation`, `LAdicTraceFormulaFinal`, `WeilRiemannHypothesisForm`)
+under host fleet admission control (swap gate 12 GB, global flock, `trap "" TERM`, LAKE_JOBS=1).
+Source audit at tip `27cdb204`: 0 code-level sorry/admit/axiom in 979 Weil files + 62,527 StacksFrontier
+files; gate (a)/(b′) `#print axioms` clean `[propext, Classical.choice, Quot.sound]`; 4/5 named theorems
+pending oleans. Census 13,670/29,230 union modules built.
