@@ -6,7 +6,8 @@ import Weil.AlgebraicGeometry.EtaleCohomology.Trace.DeligneWeilConjecture
 /-! # AXIOM_GATE part 2 — the three build-blocked targets
 
 Run from `Weil/` with `LAKE_JOBS=1 LEAN_NUM_THREADS=1 lake env lean ../gate_c.lean`.
-Requires the serial build (BUILD_STATE.md) to have produced these oleans.
+Requires the serial build (README → Reproduce / verify; AXIOM_GATE_PART2.md) to have
+produced these oleans.
 Verdict rule: `[propext, Classical.choice, Quot.sound]` = stdlib-only = CLEAN.
 Any `sorryAx`, `Lean.ofReduceBool`, `native_decide` or project axiom = DIRTY.
 -/

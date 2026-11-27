@@ -1,6 +1,6 @@
 # INSTANTIATION: can Katz 1988 Thm 4.1.1 / FKM 2013 Prop 2 be instantiated from AxiomMath/Weil?
 
-Target in our 182-program price list: the Kloosterman bound |Kl_3(a; q)| ≤ 3 q^{1/2} (normalized ≤ 3) — a Deligne-consequence via the Kloosterman sheaf.
+Target: the Kloosterman bound |Kl_3(a; q)| ≤ 3 q^{1/2} (normalized ≤ 3) — a Deligne-consequence via the Kloosterman sheaf, of the kind consumed by bounded-prime-gap work.
 
 ## What the repo+dep already give (kernel-checkable, pending build)
 1. Abstract estimate engine: purity-along-all-embeddings ⇒ eigenvalues are Q-Weil numbers of the right weight (`isAlgebraic_and_norm_eq_of_forall_isCharpolyPureOfWeight`, FK IV.4 lemma). This is the exact form the |Kl_3| ≤ 3 argument consumes.
@@ -16,10 +16,10 @@ Target in our 182-program price list: the Kloosterman bound |Kl_3(a; q)| ≤ 3 q
 
 ## Katz 1988 Thm 4.1.1 / FKM 2013 Prop 2 specifically
 - These refine/extend the base bound (sums over subsets, hybrid estimates, the FKM refinement |Kl_3| ≤ 3 with the exact constant and the stronger p-adic route). Their PROOF INPUTS are: Deligne RH on curves + weight bound machinery + sheaf constructions — all of the cohomological side exists here; the FKM refinement additionally uses p-adic estimates (hypergeometric-style) NOT present in the repo.
-- Verdict: the cohomological core (what made these "5–10 year formalization" items) is DELIVERED by Weil+Stacks modulo the assembly items above. The FKM p-adic refinement input, if our program needs the refined constant rather than the basic bound, remains custom work but on top of a formalized base.
+- Verdict: the cohomological core (what made these "5–10 year formalization" items) is DELIVERED by Weil+Stacks modulo the assembly items above. The FKM p-adic refinement input, if the refined constant is needed rather than the basic bound, remains custom work but on top of a formalized base.
 
 ## Bottom line
 IF the build verifies + `#print axioms` comes back clean for `isAlgebraic_and_norm_eq_of_forall_isCharpolyPureOfWeight`, `weightBound`, and `satisfiesWeilEstimate`, then:
 - Katz 1988 Thm 4.1.1-class and FKM 2013 Prop 2-class inputs move from UNFORMALIZED (5–10y) to INSTANTIABLE (assembly estimate: weeks–months, not years).
-- The 182-program's formalize→instantiate flip is JUSTIFIED for the Kloosterman-bound branch; the p-adic refinement sub-branch may retain custom work.
-- Residual risk: repo is AI-generated, human review pending; a compiled + axiom-clean status is strong but not the same as reviewed statements (statement-level fidelity to FK/SGA needs a human read of definitions like `IsCharpolyPureOfWeight`, `HasDeligneConclusions` before we bet the program on exact constants).
+- The formalize→instantiate flip is JUSTIFIED for the Kloosterman-bound branch; the p-adic refinement sub-branch may retain custom work.
+- Residual risk: repo is AI-generated, human review pending; a compiled + axiom-clean status is strong but not the same as reviewed statements (statement-level fidelity to FK/SGA needs a human read of definitions like `IsCharpolyPureOfWeight`, `HasDeligneConclusions` before betting exact constants on it).

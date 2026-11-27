@@ -1,0 +1,6 @@
+# Normalize to LF everywhere — shell scripts must parse on every platform,
+# regardless of the cloner's core.autocrlf setting.
+* text=auto eol=lf
+
+# Raw build receipt: preserve bytes verbatim (contains bare-CR progress output).
+build.log -text

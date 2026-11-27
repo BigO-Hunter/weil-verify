@@ -1,0 +1,26 @@
+# CI checks the verification TOOLING, not the Lean tree: the gate-target
+# closure is ~19.4k unbuilt Stacks modules at ~11 GB peak RSS per heavy
+# module — days of compute, not a CI job. The decisive Lean measurement is
+# gate_c.lean on a completed build (README -> Reproduce / verify).
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  tooling:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.11"
+      - name: Python compile
+        run: python -m py_compile serial_build_multi.py closure_analyze.py tests/test_tooling.py
+      - name: Bash syntax
+        run: bash -n build.sh
+      - name: Tooling smoke tests (synthetic two-package tree)
+        run: python -m unittest discover -s tests -v

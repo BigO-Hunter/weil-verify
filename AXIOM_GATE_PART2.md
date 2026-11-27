@@ -38,20 +38,25 @@ cohomology core (`…EtaleCohomology` 2,492, `…AG.Spaces` 1,688,
 `…CategoryTheory.Sites` 1,254, `…AG.Chow` 783). No aggregator can be pruned:
 these are genuine proof dependencies. There is also **no cache shortcut** —
 Stacks' README states a cache service "is planned", so unlike Mathlib (whose
-8,471 oleans are cached and present) the Stacks oleans must be compiled here.
+8,471 oleans are cache-distributed) the Stacks oleans must be compiled locally.
 
-At the measured 121 oleans/hour (long window, this host, mixed module weight)
-the closure is ~160 h ≈ **6.7 days** of continuous single-job building. On a
-host at load 270/16 cores and 39.7 GB/39.9 GB swap used, that is a wall of
+At the measured 121 oleans/hour (long window, original host, mixed module weight)
+the closure is ~160 h ≈ **6.7 days** of continuous single-job building. On the
+original heavily contended verification host, that is a wall of
 wall-clock, not of truth: nothing in the tree resists the build, it is simply
 large.
 
-## What is in flight
+## The build that was launched (and did not complete)
 
-`BUILD_STATE.md` holds the live ledger. As of launch (12:40): pid 3727, detached
-via `start_new_session`, `caffeinate -i nice -n 10`, chunked topological build of
-the union of all four closures, 600,000 s budget, resumable at module
-granularity (oleans are the ledger; a kill costs at most the module in flight).
+A chunked topological build of the union of all four closures was launched detached on
+2026-11-07 12:40 (600,000 s budget, resumable at module granularity — oleans are the
+ledger; a kill costs at most the module in flight). It did not reach completion before the
+verification campaign ended; the oleans it produced lived on the original host and are not
+shipped with this repo. A continuer restarts the build with `serial_build_multi.py` (see
+README → Reproduce / verify). During that run the builder absorbed two external SIGTERMs
+mid-chunk with **zero net oleans lost** (1,084 → 1,098 Stacks oleans across the two kills,
+each cost ≤ one in-flight module) — the kill-absorbing property exercised for real, not
+just claimed.
 
 Because the LaumonFourier sub-closure (16,887) is contained in `weightBound`'s
 (19,310), a single topologically-ordered union build certifies the targets one at
@@ -61,7 +66,7 @@ a time as it passes them — purity first, then `weightBound`, then
 ## The measurement to run on completion
 
 ```bash
-cd ~/bigo-campaign/weil-verify/Weil
+cd Weil   # from this repo's root
 LAKE_JOBS=1 LEAN_NUM_THREADS=1 lake env lean ../gate_c.lean
 ```
 
@@ -83,9 +88,10 @@ it reaches `WeilIIWeightBound`, gate (a) closes.
 
 ## Instrument defects found while preparing this run
 
-Recorded in `BUILD_STATE.md` §Defects: the Catalan-lane `serial_build.py` is
+The single-root `serial_build.py` predecessor is
 package-blind and on *this* tree reports "closure complete" without building a
 single Stacks module (silent false certification — fixed in
 `serial_build_multi.py`); `lake build` overhead is ~12 s/invocation (hence
 chunking, ~64 h recovered); `setsid` does not exist on macOS (a Linux-shaped
-detached launcher exits immediately and silently).
+detached launcher exits immediately and silently — detach with
+`subprocess.Popen(..., start_new_session=True)` instead).

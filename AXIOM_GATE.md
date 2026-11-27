@@ -1,6 +1,6 @@
 # AXIOM_GATE — `#print axioms` on the Weil/Stacks dependencies of `|Kl_3| ≤ 3√q`
 
-Run 2026-11-07 in `~/bigo-campaign/weil-verify/`, toolchain `leanprover/lean4:v4.34.0-rc2`
+Run 2026-11-07 from this repo's root, toolchain `leanprover/lean4:v4.34.0-rc2`
 (from `Weil/lean-toolchain`), invoked as `lake env lean <file>` from inside `Weil/` with
 `LEAN_NUM_THREADS=1`. Builds in this session used `LAKE_JOBS=1 LEAN_NUM_THREADS=1`.
 
@@ -51,7 +51,8 @@ closure *includes* the Stacks machinery it uses (`FrobeniusPoincarePairing`, `We
 ## 3. Gate (b), (c), (d) — BLOCKED ON BUILD, not measured
 
 `#print axioms` needs the target's `.olean`. These three do not have one, and building it drags in
-most of the étale-cohomology tree. Measured with `kloosterman-sheaf/closure_size.py`, which walks
+most of the étale-cohomology tree. Measured with an independent closure walk (a companion
+instrument not shipped here; `closure_analyze.py` in this repo reproduces it), which walks
 `import` lines and counts each module's olean:
 
 | target | closure | Stacks modules **unbuilt** |
@@ -69,9 +70,9 @@ batteries/aesop/etc. + 4 Weil), i.e. the audit's "9,775 oleans" figure is accura
 Measured build throughput on this host this session (a detached
 `lake build …DeligneWeilConjecture` at `LAKE_JOBS=1 LEAN_NUM_THREADS=1`, still running):
 **121 new oleans in 60 minutes ≈ 2/min.** At that rate the remaining 19,424 modules are
-**≈ 9,700 minutes ≈ 6.8 days of continuous single-job building**, on a host that is also running
-five unrelated Lean builds. Scaling `LAKE_JOBS` up is not free here: peak memory per étale module
-is large and the host is the acknowledged bottleneck, so the honest planning number is days.
+**≈ 9,700 minutes ≈ 6.8 days of continuous single-job building** on the original
+(contended) verification host. Scaling `LAKE_JOBS` up is not free here: peak memory per étale module
+is large, so the honest planning number is days.
 
 ## 4. Static corroboration (weaker instrument, full coverage)
 
@@ -105,6 +106,7 @@ are prose: 11 files contain the word, all in docstrings discussing sorry-freenes
 
 ## 6. Files
 
-`gate_a.lean`, `gate_b.lean` (this directory); `kloosterman-sheaf/gate_trace.lean` (the packaging's
-own receipts, all `[propext, Classical.choice, Quot.sound]`);
-`kloosterman-sheaf/closure_size.py`, `closure_sorry_scan.py` (the measuring instruments).
+`gate_a.lean`, `gate_b.lean` (this directory); `closure_analyze.py` (the closure-walk
+instrument, package-aware across all lake roots). The cross-checking companion instruments
+(`closure_size.py`, `closure_sorry_scan.py`, `gate_trace.lean`) lived in a sibling lane and
+are not shipped here; their measurements are quoted above and in `AXIOM_GATE_PART2.md`.

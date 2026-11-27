@@ -1,1 +1,13 @@
+# The Lean tree under verification (multi-GB; clone AxiomMath/Weil separately)
 Weil/
+.lake/
+
+# Builder runtime artifacts (oleans are the ledger; these are per-host)
+build_state.json
+build_serial.log
+unbuilt_closure.txt
+check_axioms.lean
+
+# Python
+__pycache__/
+*.pyc

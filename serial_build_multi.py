@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Package-aware, batched, kill-absorbing serial Lean builder.
 
-Descends from ~/bigo-campaign/scripts/serial_build.py (Catalan lane, 0 kills
-absorbed vs 40 dead attempts) with two fixes this tree needs:
+Descends from a single-root serial builder, with two fixes this tree needs:
 
 1. MULTI-ROOT RESOLUTION. Modules of a dependency package live under
    <root>/.lake/packages/<pkg>/, and their oleans build into that package's
