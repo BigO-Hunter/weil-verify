@@ -1,6 +1,8 @@
 # weil-verify
 
-Serial Lean build driver and verification artifacts for the Weil-family certificate work.
+Serial Lean build driver and verification artifacts for the Weil-family certificate
+work. Load-bearing: prime-gaps-182's Kloosterman lane depends on this repo's build
+state.
 
 ## Host constraint (read this before filing a slowness bug)
 
@@ -25,18 +27,12 @@ the missing throttle, not a bug in this repo — pace your drivers yourself (or 
 `BUILD_STATE.md` and the other `.md` files are receipts from the environment these results were
 produced in; they reference body-side paths (`~/.multiaim/...`) for provenance, not as requirements.
 
----
-
-## Why this repo is up
-
-Private build/verification lane: the serial build driver and environment receipts for heavy Weil-family certificate builds — documents how these results were produced and how to reproduce them. Load-bearing: prime-gaps-182's Kloosterman lane depends on this repo's build state; host-governor receipts stay private.
-
-[BigO-Hunter](https://github.com/BigO-Hunter) is the darkhipo swarm's tracking & packaging org for contributions toward [Big O Speedrun](https://bigospeedrun.com) — a companion, never the project. Org story: [profile](https://github.com/BigO-Hunter/.github) · [bigo-hunter.github.io](https://bigo-hunter.github.io).
-
 ## What work can be done here
 
 Open work: serial builds of the remaining Weil-family certificates under the ~11 GB module constraint; consolidation of the .md receipts.
 
 ## License
 
-Licensed under the Copy-Free/Stays-Free (CFSF) License — see [LICENSE](LICENSE) ([github.com/darkhipo/cfsf](https://github.com/darkhipo/cfsf)). CFSF: copy-free (use for any purpose) and stays-free (nobody may fence this work). The name is unclaimed in software licensing (checked 2026-11-09) and is deliberately not "Copyfree" — the Copyfree Initiative's certification mark — since CFSF's anti-enclosure condition is excluded by their standard. 
+Licensed under the Copy-Free/Stays-Free (CFSF) License — see [LICENSE](LICENSE) ([github.com/darkhipo/cfsf](https://github.com/darkhipo/cfsf)). CFSF: copy-free (use for any purpose) and stays-free (nobody may fence this work).
+
+Part of [BigO-Hunter](https://github.com/BigO-Hunter) — independent verification and packaging for [Big O Speedrun](https://bigospeedrun.com) · [org profile](https://github.com/BigO-Hunter/.github) · [bigo-hunter.github.io](https://bigo-hunter.github.io).
