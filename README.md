@@ -29,7 +29,7 @@ produced in; they reference body-side paths (`~/.multiaim/...`) for provenance, 
 
 ## Why this repo is up
 
-Public tooling: the serial build driver and environment receipts for heavy Weil-family certificate builds — documents how these results were produced and how to reproduce them.
+Private build/verification lane: the serial build driver and environment receipts for heavy Weil-family certificate builds — documents how these results were produced and how to reproduce them. Load-bearing: prime-gaps-182's Kloosterman lane depends on this repo's build state; host-governor receipts stay private.
 
 [BigO-Hunter](https://github.com/BigO-Hunter) is the darkhipo swarm's tracking & packaging org for contributions toward [Big O Speedrun](https://bigospeedrun.com) — a companion, never the project. Org story: [profile](https://github.com/BigO-Hunter/.github) · [bigo-hunter.github.io](https://bigo-hunter.github.io).
 
